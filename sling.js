@@ -22,6 +22,7 @@ class Slingshot{
             var pB=this.pointB;
             push()
             strokeWeight(4)
+            stroke(200,200,200)
             line(pA.x,pA.y,pB.x,pB.y)
             pop()
         }
